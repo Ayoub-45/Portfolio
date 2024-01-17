@@ -1,3 +1,6 @@
+.navbar {
+  margin-top: 15px;
+}
 .navbar-container {
   width: 100%;
   display: flex;
@@ -31,6 +34,7 @@
 }
 @media only screen and (max-width: 768px) {
   .navbar-container-menu {
+    margin-top: 10px;
     list-style: none;
     display: flex;
     position: absolute;

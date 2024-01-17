@@ -10,7 +10,7 @@ export default function Logo() {
         height: "120px",
         color: "black",
         borderRadius: "50%",
-        marginTop: "-30px",
+        marginTop: "-25px",
       }}
       alt="logo"
     />
