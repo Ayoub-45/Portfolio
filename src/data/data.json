@@ -1,0 +1,30 @@
+[
+  {
+    "label": "HOME",
+    "to": "/"
+  },
+  {
+    "label": "ABOUT ME",
+    "to": "/about"
+  },
+  {
+    "label": "SKILLS",
+    "to": "/skills"
+  },
+  {
+    "label": "CERTIFICATIONS",
+    "to": "/certifications"
+  },
+  {
+    "label": "PORTFOLIO",
+    "to": "/portfolio"
+  },
+  {
+    "label": "RESUME",
+    "to": "/resume"
+  },
+  {
+    "label": "CONTACT",
+    "to": "/contact"
+  }
+]
