@@ -6,7 +6,7 @@ import { HiX } from "react-icons/hi";
 import { FaBars } from "react-icons/fa";
 
 import "./navbar.styles.css";
-export default function Navbar() {
+export default function Navbar({ onHandleLocation }) {
   const [toggle, setToggle] = useState(false);
   const handleClick = () => {
     setToggle((prevState) => !prevState);
@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="navbar">
         <div className="navbar-container">
           <div>
-            <Link to={"/"}>
+            <Link to={"/"} onClick={onHandleLocation}>
               <Logo />
             </Link>
           </div>
@@ -28,7 +28,12 @@ export default function Navbar() {
                 } navbar-container-menu active `}
               >
                 {data.map((item) => (
-                  <Link key={item.label} to={item.to} className="navbar-item">
+                  <Link
+                    key={item.label}
+                    to={item.to}
+                    className="navbar-item"
+                    onClick={onHandleLocation}
+                  >
                     <li>{item.label}</li>
                   </Link>
                 ))}
