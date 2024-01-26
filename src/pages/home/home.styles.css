@@ -1,0 +1,85 @@
+.home {
+  position: absolute;
+  margin-top: -120px;
+  right: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.home-container {
+  margin-top: 32px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  font-size: 32px;
+  color: blueviolet;
+  opacity: 0.7;
+}
+.hire-me:focus,
+.hire-me:link,
+.hire-me:active {
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 25px;
+  border: 2px blueviolet solid;
+  border-radius: 8px;
+}
+.hire-me:hover {
+  padding: 10px;
+  text-decoration: none;
+  margin-top: 25px;
+  border: 2px blueviolet solid;
+  border-radius: 8px;
+  background-color: black;
+  color: #fff;
+}
+.hire-me-container {
+  display: flex;
+  gap: 10px;
+}
+/*@media only screen and (max-width: 550px) {
+  .home {
+    position: absolute;
+    right: 15%;
+    margin-top: 350px;
+  }
+  .home-container h1 {
+    font-size: 3.5rem;
+  }
+}*/
+
+@media only screen and (min-width: 551px) and (max-width: 768px) {
+  .home {
+    position: absolute;
+    right: 20%;
+  }
+  .home-container h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (min-width: 761px) and (max-width: 990px) {
+  .home-container h1 {
+    font-size: 3rem;
+    line-height: 5rem;
+  }
+  .home {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+  }
+  .home-container h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}
+.set-mobile h1 {
+  text-align: center;
+  font-size: 4rem;
+  line-height: 4rem;
+}

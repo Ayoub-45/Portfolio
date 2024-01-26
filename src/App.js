@@ -1,6 +1,6 @@
 import Navbar from "./components/navbar/navbar.component";
 import "./index.css";
-import { useCallback } from "react";
+import { useCallback, useState } from "react";
 import { loadSlim } from "tsparticles-slim";
 import Particles from "react-tsparticles";
 import { Route, Routes, useLocation } from "react-router-dom";
@@ -14,32 +14,36 @@ import Content from "./pages/content/content.component";
 import Certifications from "./pages/certifications/certifications.component";
 import Contact from "./pages/contact/contact.component";
 function App() {
+  const [toggle, setToggle] = useState(false);
   const location = useLocation();
+  const renderParticles =
+    location.pathname === "/" || location.pathname === "/home";
   const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
     await loadSlim(engine);
   }, []);
-
   const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
+    await container;
   }, []);
-  const handleLocation = () => {
-    console.log(location);
-  };
-  return (
-    <div className="lato-light">
-      {}
-      <Particles
-        id="tsparticles"
-        init={particlesInit}
-        loaded={particlesLoaded}
-        options={options}
-      />
 
-      <Navbar onhandleLocation={handleLocation} />
+  return (
+    <>
+      {renderParticles && (
+        <Particles
+          id="tsparticles"
+          init={particlesInit}
+          loaded={particlesLoaded}
+          options={options}
+        />
+      )}
+
+      <Navbar
+        renderParticles={renderParticles}
+        onSetToggle={setToggle}
+        toggle={toggle}
+      />
       {/* Main pages*/}
       <Routes>
-        <Route index path="/" element={<Home />} />
+        <Route index path="/" element={<Home toggle={toggle} />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/resume" element={<Resume />} />
@@ -48,7 +52,7 @@ function App() {
         <Route path="/content" element={<Content />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </div>
+    </>
   );
 }
 

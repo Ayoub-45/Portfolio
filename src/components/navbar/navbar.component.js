@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Logo from "../logo/logo.component";
 import { Link } from "react-router-dom";
 import data from "../../data/data.json";
@@ -6,17 +6,20 @@ import { HiX } from "react-icons/hi";
 import { FaBars } from "react-icons/fa";
 
 import "./navbar.styles.css";
-export default function Navbar({ onHandleLocation }) {
-  const [toggle, setToggle] = useState(false);
+export default function Navbar({ renderParticles, toggle, onSetToggle }) {
   const handleClick = () => {
-    setToggle((prevState) => !prevState);
+    onSetToggle((prevState) => !prevState);
+    console.log(toggle);
   };
   return (
     <div>
       <div className="navbar">
-        <div className="navbar-container">
+        <div
+          className="navbar-container"
+          style={{ position: `${renderParticles ? "absolute" : ""}` }}
+        >
           <div>
-            <Link to={"/"} onClick={onHandleLocation}>
+            <Link to={"/"}>
               <Logo />
             </Link>
           </div>
@@ -28,12 +31,7 @@ export default function Navbar({ onHandleLocation }) {
                 } navbar-container-menu active `}
               >
                 {data.map((item) => (
-                  <Link
-                    key={item.label}
-                    to={item.to}
-                    className="navbar-item"
-                    onClick={onHandleLocation}
-                  >
+                  <Link key={item.label} to={item.to} className="navbar-item">
                     <li>{item.label}</li>
                   </Link>
                 ))}

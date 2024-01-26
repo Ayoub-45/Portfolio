@@ -1,8 +1,9 @@
 .navbar {
+  position: inherit;
   margin-top: 15px;
+  height: 150px;
 }
 .navbar-container {
-  position: fixed;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -35,10 +36,8 @@
 }
 @media only screen and (max-width: 768px) {
   .navbar-container-menu {
-    margin-top: 10px;
     list-style: none;
     display: flex;
-    position: absolute;
     flex-direction: column;
     top: 80px;
     right: -5px;
