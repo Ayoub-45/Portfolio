@@ -1,0 +1,17 @@
+.workspace {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.image {
+  height: 200vh;
+  width: 450px;
+  border-radius: 150px;
+  margin-right: -200px;
+}
+@media only screen and (max-width: 551px) {
+  .image {
+    width: 350px;
+    height: 100vh;
+  }
+}

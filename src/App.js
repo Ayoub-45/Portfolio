@@ -44,11 +44,11 @@ function App() {
       {/* Main pages*/}
       <Routes>
         <Route index path="/" element={<Home toggle={toggle} />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<About toggle={toggle} />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/certifications" element={<Certifications />} />
-        <Route path="/skills" element={<Skills />} />
+        <Route path="/skills" element={<Skills toggle={toggle} />} />
         <Route path="/content" element={<Content />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
