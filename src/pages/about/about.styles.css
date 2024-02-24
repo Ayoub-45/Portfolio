@@ -30,8 +30,9 @@
 .container h1 {
   line-height: normal;
   font-size: 32px;
-  color: #cc99ff;
+  color: #e6cccf;
   font-weight: bold;
+  text-transform: uppercase;
 }
 .list-technologies {
   list-style: none;
@@ -72,6 +73,8 @@ h3 {
     gap: 10px;
   }
   .image {
+    display: flex;
+    justify-content: center;
     margin-left: -300px;
   }
   .list-technologies {
