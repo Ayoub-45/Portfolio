@@ -3,7 +3,7 @@ import React from "react";
 export default function Logo() {
   return (
     <img
-      src="../../../Ayoub.ico"
+      src="./assets/icons/Ayoub.ico"
       style={{
         cursor: "pointer",
         width: "120px",

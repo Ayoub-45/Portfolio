@@ -1,7 +1,8 @@
 .title {
-  color: #cc99ff;
+  color: #bf80ff;
   font-size: 32px;
   text-align: center;
+  text-transform: uppercase;
 }
 .ag-format-container {
   width: 1142px;

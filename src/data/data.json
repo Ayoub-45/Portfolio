@@ -12,16 +12,12 @@
     "to": "/skills"
   },
   {
-    "label": "CERTIFICATIONS",
-    "to": "/certifications"
-  },
-  {
     "label": "PORTFOLIO",
     "to": "/portfolio"
   },
   {
-    "label": "RESUME",
-    "to": "/resume"
+    "label": "SERVICES",
+    "to": "/services"
   },
   {
     "label": "CONTACT",

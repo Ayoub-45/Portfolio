@@ -4,9 +4,9 @@ function WorkSpace() {
   return (
     <div className="workspace">
       <img
-        src="./images/workspace-1-11.jpg"
-        alt="workspace"
+        src="./assets/images/workspace-1-11.jpg"
         className="image"
+        alt="Workspace"
       />
     </div>
   );

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend developement",
+    "description": "Are you ready to take your online presence to the next level? Look no further! As a skilled frontend developer, I offer top-notch frontend development services tailored to meet your unique needs and exceed your expectations.       ",
+    "image": "./assets/images/front-end.jpg",
+    "technologies": ["react", "angular"]
+  },
+  {
+    "id": 2,
+    "title": "Backend development",
+    "description": "Looking to supercharge your web projects with robust backend solutions? Your search ends here! As a proficient backend developer, I offer top-tier development services tailored to meet your backend needs and drive your business forward",
+    "image": "./assets/images/back-end.jpg",
+    "technologies": ["asp.net", "nodejs", "postgres", "mongodb"]
+  }
+]

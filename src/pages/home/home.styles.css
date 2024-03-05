@@ -17,7 +17,8 @@
   width: 100%;
   align-items: center;
   font-size: 32px;
-  color: blueviolet;
+  color: #bf80ff;
+  font-weight: bold;
   opacity: 0.6;
 }
 .hire-me:focus,
@@ -52,7 +53,13 @@
     font-size: 3.5rem;
   }
 }*/
-
+.button {
+  background-color: #8000ff;
+  color: #e6ffff;
+}
+.button:hover {
+  background-color: #a64dff;
+}
 @media only screen and (min-width: 551px) and (max-width: 768px) {
   .home {
     position: absolute;

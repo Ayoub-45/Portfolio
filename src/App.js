@@ -8,11 +8,10 @@ import { options } from "./helpers/options";
 import Home from "./pages/home/home.component";
 import About from "./pages/about/about.component";
 import Portfolio from "./pages/portfolio/portfolio.component";
-import Resume from "./pages/resume/resume.component";
 import Skills from "./pages/skills/skills.component";
 import Content from "./pages/content/content.component";
-import Certifications from "./pages/certifications/certifications.component";
 import Contact from "./pages/contact/contact.component";
+import Services from "./pages/Services/services.component";
 function App() {
   const [toggle, setToggle] = useState(false);
   const location = useLocation();
@@ -45,9 +44,8 @@ function App() {
       <Routes>
         <Route index path="/" element={<Home toggle={toggle} />} />
         <Route path="/about" element={<About toggle={toggle} />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/resume" element={<Resume />} />
-        <Route path="/certifications" element={<Certifications />} />
+        <Route path="/portfolio" element={<Portfolio toggle={toggle} />} />
+        <Route path="/services" element={<Services />} />
         <Route path="/skills" element={<Skills toggle={toggle} />} />
         <Route path="/content" element={<Content />} />
         <Route path="/contact" element={<Contact />} />

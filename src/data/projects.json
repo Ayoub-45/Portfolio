@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "path": "./assets/images/project1.jpg",
+    "name": "Forkify application",
+    "description": "Forkify is a user-friendly cooking companion app that offers a vast database of recipes, meal planning tools, and a vibrant community for food enthusiasts. Discover, plan, and prepare delicious meals effortlessly with Forkify.",
+    "technologies": ["javascript", "html5", "sass"],
+    "github": "https://github.com/Ayoub-45/forkify"
+  },
+  {
+    "id": "2",
+    "path": "./assets/images/project2.jpg",
+    "name": "E-commerce website",
+    "description": "Explore our sleek e-commerce platform for clothing, where style meets convenience. Discover trendsetting collections, shop with confidence, and enjoy a seamless shopping experience from the comfort of your home. Join our fashion community and elevate your wardrobe effortlessly.",
+    "technologies": ["react", "firebase"],
+    "github": "https://github.com/Ayoub-45/e-commerce-websitev2"
+  },
+  {
+    "id": "3",
+    "path": "./assets/images/project3.jpg",
+    "name": "Homes",
+    "description": "The Homes application simplifies the search for houses across the United States with its user-friendly interface. Users can filter listings based on city. With features for saving favorites and scheduling viewings, Homes streamlines the process of finding the ideal home.",
+    "technologies": ["angular"],
+    "github": "https://github.com/Ayoub-45/Home-app"
+  }
+]

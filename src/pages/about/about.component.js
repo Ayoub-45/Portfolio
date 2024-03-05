@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { SocialIcon } from "react-social-icons";
 import "./about.styles.css";
 import WorkSpace from "../../components/workspace/Workspace.component";
 function About({ toggle }) {
@@ -55,6 +56,16 @@ function About({ toggle }) {
             via LinkedIn for inquiries, collaborations, or a casual chat. Let's
             transform ideas into reality and enhance the web together!
           </h2>
+
+          <div>
+            <span className="span">
+              <h2>Reach out 👉</h2>
+              <SocialIcon
+                target="_blank"
+                url="https://www.linkedin.com/in/ayoub-nasraoui-6b06b2236/"
+              />
+            </span>
+          </div>
         </div>
       </div>
     </>
