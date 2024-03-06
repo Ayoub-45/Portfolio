@@ -12,5 +12,19 @@
     "description": "Looking to supercharge your web projects with robust backend solutions? Your search ends here! As a proficient backend developer, I offer top-tier development services tailored to meet your backend needs and drive your business forward",
     "image": "./assets/images/back-end.jpg",
     "technologies": ["asp.net", "nodejs", "postgres", "mongodb"]
+  },
+  {
+    "id": 3,
+    "title": "UI/UX design",
+    "description": "Ready to captivate your audience and leave a lasting impression? Look no further! As a seasoned UI/UX designer, I offer top-tier design services tailored to elevate your digital experience and set your brand apart from the competition.",
+    "image": "./assets/images/UI-UX-design.jpg",
+    "technologies": ["figma"]
+  },
+  {
+    "id": 4,
+    "title": "Copywriting",
+    "description": "Ready to captivate your audience and leave a lasting impression? Look no further! As a seasoned UI/UX designer, I offer top-tier design services tailored to elevate your digital experience and set your brand apart from the competition.",
+    "image": "./assets/images/copy-writing.jpg",
+    "technologies": ["writing"]
   }
 ]

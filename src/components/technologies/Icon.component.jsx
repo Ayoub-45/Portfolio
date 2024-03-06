@@ -9,6 +9,8 @@ import { IoLogoJavascript } from "react-icons/io";
 import { SiDotnet } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { SiMongodb } from "react-icons/si";
+import { FaFigma } from "react-icons/fa6";
+import { TbWritingSign } from "react-icons/tb";
 
 function Icon({ technologyName }) {
   const Tech =
@@ -41,7 +43,14 @@ function Icon({ technologyName }) {
     )) ||
     (technologyName === "mongodb" && (
       <SiMongodb size={28} key={new Date().getTime()} color="#006400" />
+    )) ||
+    (technologyName === "figma" && (
+      <FaFigma size={28} key={new Date().getTime()} color="black" />
+    )) ||
+    (technologyName === "writing" && (
+      <TbWritingSign size={28} key={new Date().getTime()} color="black" />
     ));
+
   return Tech;
 }
 export default Icon;
