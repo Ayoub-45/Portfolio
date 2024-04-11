@@ -1,0 +1,36 @@
+.custom-form {
+  max-width: 400px; /* Adjust as needed for responsiveness */
+  margin: 0 auto; /* Center the form */
+}
+
+.custom-form input,
+.custom-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border-color 0.3s ease-in-out;
+  color: #8000ff; /* Purple color */
+  font-family: "Roboto", sans-serif; /* Roboto font family */
+}
+
+.custom-form input:focus,
+.custom-form textarea:focus {
+  border-color: #8000ff; /* Change border color on focus */
+}
+
+.custom-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8000ff; /* Purple color */
+  color: #fff;
+  font-family: "Roboto", sans-serif; /* Roboto font family */
+  cursor: pointer;
+}
+
+.custom-form button:hover {
+  background-color: #6a00cc; /* Darker shade of purple on hover */
+}
