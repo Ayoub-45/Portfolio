@@ -17,7 +17,7 @@
   width: 100%;
   align-items: center;
   font-size: 32px;
-  color: #bf80ff;
+  color: #8000ff;
   font-weight: bold;
   opacity: 0.6;
 }
@@ -43,16 +43,6 @@
   display: flex;
   gap: 10px;
 }
-/*@media only screen and (max-width: 550px) {
-  .home {
-    position: absolute;
-    right: 15%;
-    margin-top: 350px;
-  }
-  .home-container h1 {
-    font-size: 3.5rem;
-  }
-}*/
 .button {
   background-color: #8000ff;
   color: #e6ffff;

@@ -24,6 +24,7 @@ html {
 body {
   background-color: var(--yellow-theme-background-color);
   height: 100%;
+  font-family: "Roboto", sans-serif;
 }
 #root {
   height: 100%;

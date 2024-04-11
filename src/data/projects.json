@@ -22,5 +22,13 @@
     "description": "The Homes application simplifies the search for houses across the United States with its user-friendly interface. Users can filter listings based on city. With features for saving favorites and scheduling viewings, Homes streamlines the process of finding the ideal home.",
     "technologies": ["angular"],
     "github": "https://github.com/Ayoub-45/Home-app"
+  },
+  {
+    "id": "4",
+    "path": "./assets/images/project4.jpg",
+    "name": "Pro Shop",
+    "description": "Proshop is an innovative online platform dedicated to offering a curated selection of premium digital products, including smartphones, gaming consoles, accessories, and more. Built on cutting-edge technologies like Node.js, React.js, Express.js, and MongoDB, Proshop provides a seamless and secure shopping experience for tech enthusiasts worldwide.",
+    "technologies": ["react", "nodejs", "mongodb", "expressjs"],
+    "github": "https://github.com/Ayoub-45/Pro-Shop"
   }
 ]

@@ -11,7 +11,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { SiMongodb } from "react-icons/si";
 import { FaFigma } from "react-icons/fa6";
 import { TbWritingSign } from "react-icons/tb";
-
+import { SiExpress } from "react-icons/si";
 function Icon({ technologyName }) {
   const Tech =
     (technologyName === "angular" && (
@@ -49,6 +49,9 @@ function Icon({ technologyName }) {
     )) ||
     (technologyName === "writing" && (
       <TbWritingSign size={28} key={new Date().getTime()} color="black" />
+    )) ||
+    (technologyName === "expressjs" && (
+      <SiExpress size={28} key={new Date().getTime()} color="gray" />
     ));
 
   return Tech;
