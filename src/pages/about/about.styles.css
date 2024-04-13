@@ -5,6 +5,7 @@
   font-style: normal;
   line-height: 3rem;
 }
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -13,6 +14,7 @@
   max-width: 1200px;
   margin-bottom: 30px;
 }
+
 .content {
   padding: 50px;
   border: solid #e6ccff 0.02px;
@@ -22,11 +24,13 @@
   margin-bottom: 20px;
   border-radius: 30px;
 }
+
 .image {
   margin-right: 200px;
   width: 400px;
   height: 900px;
 }
+
 .container h1 {
   line-height: normal;
   font-size: 32px;
@@ -34,6 +38,7 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .list-technologies {
   list-style: none;
   display: flex;
@@ -41,31 +46,38 @@
   gap: 20px;
   font-size: 18px;
 }
+
 .technology span {
   margin-left: 50px;
   font-weight: bold;
 }
+
 .technology {
   width: 500px;
   border: solid 5px #f1f1f1;
   border-radius: 2rem;
 }
+
 h2 {
   font-size: 2em;
   line-height: 4rem;
 }
+
 h3 {
   margin-top: 12px;
   line-height: 2.5rem;
   margin-left: 16px;
 }
+
 .mg-bottom {
   margin-bottom: 20px;
 }
+
 .span {
   display: flex;
   gap: 10px;
 }
+
 @media only screen and (max-width: 551px) {
   .container {
     display: flex;
@@ -75,16 +87,20 @@ h3 {
     padding: 0;
     gap: 10px;
   }
+
   .image {
-    display: flex;
-    justify-content: center;
-    margin-left: -300px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    height: auto;
   }
+
   .list-technologies {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .technology {
     width: 250px;
     border: solid 6px #f1f1f1;

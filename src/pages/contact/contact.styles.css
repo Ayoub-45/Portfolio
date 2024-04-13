@@ -34,3 +34,9 @@
 .custom-form button:hover {
   background-color: #6a00cc; /* Darker shade of purple on hover */
 }
+
+@media only screen and (max-width: 550px) {
+  .custom-form {
+    max-width: 90%; /* Adjust as needed for responsiveness */
+  }
+}

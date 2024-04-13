@@ -4,6 +4,7 @@
   text-align: center;
   font-weight: bold;
 }
+
 .service {
   border: 45px solid gray;
   border-radius: 8px;
@@ -17,4 +18,20 @@
   grid-template-columns: repeat(2, minmax(250px, 1fr));
   gap: 25px;
   padding: 5px 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  .services-title {
+    font-size: 36px;
+  }
+
+  .service {
+    border-width: 30px;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+
+  .services-container {
+    grid-template-columns: repeat(1, minmax(250px, 1fr));
+  }
 }
