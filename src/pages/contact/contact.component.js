@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./contact.styles.css"; // Import your CSS file where the styles will be defined
 import { sendEmail } from "../../helpers/sendEmail";
-const Contact = () => {
+const Contact = ({ toggle }) => {
   const [formData, setFormData] = useState({
     to_name: "",
     user_email: "",
@@ -28,7 +28,11 @@ const Contact = () => {
   };
 
   return (
-    <form className="custom-form" onSubmit={handleSubmit}>
+    <form
+      className="custom-form"
+      style={{ marginTop: `${toggle ? "250px" : ""}` }}
+      onSubmit={handleSubmit}
+    >
       <input
         type="text"
         name="to_name"

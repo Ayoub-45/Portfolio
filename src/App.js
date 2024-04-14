@@ -46,7 +46,7 @@ function App() {
         <Route path="/portfolio" element={<Portfolio toggle={toggle} />} />
         <Route path="/services" element={<Services toggle={toggle} />} />
         <Route path="/skills" element={<Skills toggle={toggle} />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact toggle={toggle} />} />
       </Routes>
     </>
   );
