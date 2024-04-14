@@ -18,14 +18,14 @@
 
 .header-project {
   font-size: 2em; /* Use em for font size */
-  color: #bf80ff;
+  color: black;
   text-align: center;
   font-weight: bold;
 }
 
 .card:hover {
   transform: scale(1.05);
-  border: 4px solid #bf80ff;
+  border: 4px solid #666;
 }
 
 .card img {
@@ -46,7 +46,6 @@
   font-size: 1em; /* Use em for font size */
   color: #666;
 }
-
 .link {
   margin-top: 2%; /* Adjust margin for responsiveness */
 }
