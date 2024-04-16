@@ -39,8 +39,8 @@ function Home({ toggle }) {
           <Link className="hire-me button" to="/contact">
             Hire me
           </Link>
-          <Link className="resume" to="/resume">
-            Resume
+          <Link className="resume" to="/workhistory">
+            Work History
           </Link>
         </div>
       </div>

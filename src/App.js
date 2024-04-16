@@ -11,6 +11,7 @@ import Portfolio from "./pages/portfolio/portfolio.component";
 import Skills from "./pages/skills/skills.component";
 import Contact from "./pages/contact/contact.component";
 import Services from "./pages/Services/services.component";
+import WorkHistory from "./pages/resume/WorkHistory.component";
 function App() {
   const [toggle, setToggle] = useState(false);
   const location = useLocation();
@@ -45,6 +46,7 @@ function App() {
         <Route path="/about" element={<About toggle={toggle} />} />
         <Route path="/portfolio" element={<Portfolio toggle={toggle} />} />
         <Route path="/services" element={<Services toggle={toggle} />} />
+        <Route path="/workhistory" element={<WorkHistory toggle={toggle} />} />
         <Route path="/skills" element={<Skills toggle={toggle} />} />
         <Route path="/contact" element={<Contact toggle={toggle} />} />
       </Routes>
