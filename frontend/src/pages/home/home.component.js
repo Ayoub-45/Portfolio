@@ -34,7 +34,7 @@ function Home({ toggle }) {
           Hello ,I am Ayoub
           <br />
         </h1>
-        <h1>Web developer</h1>
+        <h1>Software engineer</h1>
         <div className="hire-me-container">
           <Link className="hire-me button" to="/contact">
             Hire me
